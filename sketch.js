@@ -57,6 +57,11 @@ function keyPressed() {
     	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85});
     
   	}
+	if (keyCode === DOWN_ARROW) {
+
+    	Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:-85,y:85});
+    
+  	}
 }
 
 
